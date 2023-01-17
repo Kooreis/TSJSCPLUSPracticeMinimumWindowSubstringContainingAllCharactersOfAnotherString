@@ -1,5 +1,4 @@
-function minWindow(s, t) {
-    let map = {};
-    t.split('').forEach(ch => map[ch] = (map[ch] || 0) + 1);
-    let count = Object.keys(map).length;
-}
+let left = 0;
+    let right = 0;
+    let minLen = Infinity;
+    let minStr = '';
